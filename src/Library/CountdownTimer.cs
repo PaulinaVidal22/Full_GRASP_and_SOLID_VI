@@ -22,7 +22,7 @@ namespace Full_GRASP_And_SOLID
 
         private void OnTimedEvent(object state)
         {
-            this.client.TimeOut();
+            this.client.TimeOut(); // modified
             this.timer.Change(Timeout.Infinite, Timeout.Infinite);
         }
     }
